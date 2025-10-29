@@ -1,0 +1,86 @@
+body {
+  background-color: white;
+  color: black;
+  
+}
+
+
+.image-delete {
+  width: 20px;
+  height: 25px;
+  font-size: 10px;
+}
+
+.page-grid {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 20px;
+  padding-right: 0px;
+  width: fit-content;
+  box-sizing: border-box;
+  background-color: #ffecd2;
+  height: 500px;
+}
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: #ffecd2;
+  font-size: 20px;
+  margin-top: 20px;
+  background: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #444;
+ 
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 75px;
+  justify-content: center;
+}
+
+.input {
+  width: 270px;
+  padding: 40px;
+  height: 50px;
+  font-size: 50px;
+}
+
+.multiply-button {
+  width: 20px;
+  height: 25px;
+  font-size: 10px;
+
+}
+
+.division-button {
+  width: 25px;
+  height: 35px;
+}
+
+.buttons:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+.mode{
+  margin-top: 20px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
