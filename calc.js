@@ -1,5 +1,4 @@
 const display = document.querySelector('.input')
-
 const calcButton = document.querySelectorAll('.buttons');
 
 let expression = '';
@@ -29,4 +28,3 @@ calcButton.forEach(buttons => {
   });
 }
 );
-
