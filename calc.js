@@ -3,6 +3,7 @@ const calcButton = document.querySelectorAll('.buttons');
 
 let expression = '';
 
+// Function that makes all the buttons work
 calcButton.forEach(buttons => {
   buttons.addEventListener('click', () => {
     const value = buttons.dataset.value;
