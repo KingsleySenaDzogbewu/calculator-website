@@ -38,7 +38,7 @@ body {
   background-color: #fff;
   color: #444;
 }
-
+// grid arrangements for the buttons
 .buttons-grid {
   display: grid;
   grid-template-columns: 100px 100px 100px 75px;
